@@ -151,7 +151,7 @@ let NERDTreeIgnore=['CVS','\.dSYM$']
 let NERDTreeChDirMode=2
 
 " Toggle visibility using <Leader>n
-noremap <silent> <Leader>n :NERDTreeToggle<CR>
+noremap 11 :NERDTreeToggle<CR>
 
 " These prevent accidentally loading files while focused on NERDTree
 autocmd FileType nerdtree noremap <buffer> <c-left> <nop>
